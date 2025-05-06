@@ -1,0 +1,8 @@
+env: "local" #local, dev, prod
+storage_path: "redis:6379"
+http_server:
+  address: "0.0.0.0:8082"
+  timeout: 4s
+  idle_timeout: 60s
+  user: "myuser"
+  password: "mypass"
